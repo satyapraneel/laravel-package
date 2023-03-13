@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "satyapraneel/laravel-package",
+    "description": "This is an example package",
     "keywords": [
-        ":vendor_name",
+        "satyapraneel",
         "laravel",
-        ":package_slug"
+        "laravel-package"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/satyapraneel/laravel-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Satyapraneel Holla",
+            "email": "satyapraneel@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Satyapraneel\\LaravelPackage\\": "src",
+            "Satyapraneel\\LaravelPackage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Satyapraneel\\LaravelPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Satyapraneel\\LaravelPackage\\LaravelPackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelPackage": "Satyapraneel\\LaravelPackage\\Facades\\LaravelPackage"
             }
         }
     },
