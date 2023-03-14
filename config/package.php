@@ -1,6 +1,6 @@
 <?php
 
-// config for Satyapraneel/LaravelPackage
+// config for Satyapraneel/Example
 return [
 
 ];

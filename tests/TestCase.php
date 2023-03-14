@@ -1,10 +1,10 @@
 <?php
 
-namespace Satyapraneel\LaravelPackage\Tests;
+namespace Satyapraneel\Example\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Satyapraneel\LaravelPackage\LaravelPackageServiceProvider;
+use Satyapraneel\Example\ExampleServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,14 +13,14 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Satyapraneel\\LaravelPackage\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Satyapraneel\\Example\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
     protected function getPackageProviders($app)
     {
         return [
-            LaravelPackageServiceProvider::class,
+            ExampleServiceProvider::class,
         ];
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Satyapraneel\LaravelPackage\Database\Factories;
+namespace Satyapraneel\Example\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Satyapraneel\LaravelPackage\Commands;
+namespace Satyapraneel\Example\Commands;
 
 use Illuminate\Console\Command;
 
-class LaravelPackageCommand extends Command
+class ExampleCommand extends Command
 {
     public $signature = 'laravel-package';
 

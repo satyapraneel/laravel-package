@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Satyapraneel\\LaravelPackage\\": "src",
-            "Satyapraneel\\LaravelPackage\\Database\\Factories\\": "database/factories"
+            "Satyapraneel\\Example\\": "src",
+            "Satyapraneel\\Example\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Satyapraneel\\LaravelPackage\\Tests\\": "tests"
+            "Satyapraneel\\Example\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Satyapraneel\\LaravelPackage\\LaravelPackageServiceProvider"
+                "Satyapraneel\\Example\\ExampleServiceProvider"
             ],
             "aliases": {
-                "LaravelPackage": "Satyapraneel\\LaravelPackage\\Facades\\LaravelPackage"
+                "Example": "Satyapraneel\\Example\\Facades\\Example"
             }
         }
     },

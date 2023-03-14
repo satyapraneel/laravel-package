@@ -1,12 +1,12 @@
 <?php
 
-namespace Satyapraneel\LaravelPackage;
+namespace Satyapraneel\Example;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Satyapraneel\LaravelPackage\Commands\LaravelPackageCommand;
+use Satyapraneel\Example\Commands\ExampleCommand;
 
-class LaravelPackageServiceProvider extends PackageServiceProvider
+class ExampleServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -20,6 +20,6 @@ class LaravelPackageServiceProvider extends PackageServiceProvider
             ->hasConfigFile()
             ->hasViews()
             ->hasMigration('create_laravel-package_table')
-            ->hasCommand(LaravelPackageCommand::class);
+            ->hasCommand(ExampleCommand::class);
     }
 }

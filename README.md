@@ -52,8 +52,8 @@ php artisan vendor:publish --tag="laravel-package-views"
 ## Usage
 
 ```php
-$laravelPackage = new Satyapraneel\LaravelPackage();
-echo $laravelPackage->echoPhrase('Hello, Satyapraneel!');
+$Example = new Satyapraneel\Example();
+echo $Example->echoPhrase('Hello, Satyapraneel!');
 ```
 
 ## Testing
