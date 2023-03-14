@@ -2,9 +2,9 @@
 
 namespace Satyapraneel\Example;
 
+use Satyapraneel\Example\Commands\ExampleCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Satyapraneel\Example\Commands\ExampleCommand;
 
 class ExampleServiceProvider extends PackageServiceProvider
 {
